@@ -1,5 +1,8 @@
 chnroutes
 =========
+⚠️**This fork is a python3 version of the original repo.**
+
+⚠️**Only tested on MacOS**
 
 These scripts uses country data from [APNIC Delegated List] to generate scripts
 to run when you connect to a VPN. With those scripts, a Chinese VPN user can
