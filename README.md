@@ -91,7 +91,7 @@ PPTP 用法
 ### OS X / Linux
 
 1. 下载 `chnroutes.py`。
-2. `python chnroutes.py -p "$(uname)"`; chmod a+x ip-*; sudo cp ip-* /etc/ppp`.
+2. `python chnroutes.py -p "$(uname)"; chmod a+x ip-*; sudo cp ip-* /etc/ppp`.
   - 如果你已有其他文件，你可能更想要将生成的那些文件加入已有文件的末尾。
 3. 设置完毕。重新连接 VPN，测试步骤同上。
 
