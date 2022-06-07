@@ -86,7 +86,7 @@ can use it somewhere else, like in other type of connections.
 ### OS X / Linux
 
 1. Download `chnroutes.py`.
-2. `python chnroutes.py -p "$(uname)"`; chmod a+x ip-*; sudo cp ip-* /etc/ppp`.
+2. `python chnroutes.py -p "$(uname)"; chmod a+x ip-*; sudo cp ip-* /etc/ppp`.
   - If you have other files in `/etc/ppp`, you may want to append not overwrite
     them.
 3. Done. Reconnect and test.
